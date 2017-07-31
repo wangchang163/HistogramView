@@ -34,3 +34,5 @@ Step 2. Add the dependency
 	dependencies {
 	        compile 'com.github.wangchang163:HistogramView:v1.0'
 	}
+
+
