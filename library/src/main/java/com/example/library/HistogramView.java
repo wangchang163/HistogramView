@@ -1,4 +1,4 @@
-package com.example.testing.mylibrary;
+package com.example.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,13 +12,10 @@ import android.graphics.Rect;
 import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
-
-import java.util.ArrayList;
 
 /**
  * Created by wangchang on 2017/7/27.

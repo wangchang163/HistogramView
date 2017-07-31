@@ -1,4 +1,4 @@
-package com.example.testing.mylibrary;
+package com.example.library;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.testing.mylibrary.HistogramView
+    <com.example.library.HistogramView
         android:id="@+id/histogramView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
@@ -15,7 +15,7 @@
         app:line_color="#00afb2"
         app:rect_color="#00afb2"
          />
-    <com.example.testing.mylibrary.HprogressView
+    <com.example.library.HprogressView
         android:id="@+id/hProgressView"
         android:layout_width="match_parent"
         android:layout_height="12dp"
