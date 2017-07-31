@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HistogramView">
+        <attr name="line_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="line_dotted_line" format="color"/>
+        <attr name="rect_color" format="color"/>
+        <attr name="mViewWidth" format="dimension"/>
+        <attr name="mMargin" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="HprogressView">
+        <attr name="pro_color" format="color"/>
+        <attr name="bg_color" format="color"/>
+        <attr name="txt_color" format="color"/>
+        <attr name="txt_size" format="dimension"/>
+    </declare-styleable>
+</resources>

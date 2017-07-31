@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.testing.histogramview.HistogramView
+        android:id="@+id/histogramView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:mViewWidth="24dp"
+        app:text_color="#00afb2"
+        app:line_dotted_line="#00afb2"
+        app:line_color="#00afb2"
+        app:rect_color="#00afb2"
+         />
+    <com.example.testing.histogramview.HprogressView
+        android:id="@+id/hProgressView"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:bg_color="@color/colorPrimary"
+        app:pro_color="@color/colorAccent"
+        app:txt_color="#FFFFFF"
+        android:layout_margin="12dp"
+        />
+</LinearLayout>
