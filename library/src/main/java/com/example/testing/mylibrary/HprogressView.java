@@ -1,4 +1,4 @@
-package com.example.testing.histogramview;
+package com.example.testing.mylibrary;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

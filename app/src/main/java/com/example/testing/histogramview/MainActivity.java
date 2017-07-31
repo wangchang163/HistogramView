@@ -5,6 +5,9 @@ package com.example.testing.histogramview;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.testing.mylibrary.HistogramView;
+import com.example.testing.mylibrary.HprogressView;
+
 
 public class MainActivity extends AppCompatActivity {
 
