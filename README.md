@@ -6,7 +6,7 @@
 3：颜色的可扩展（文本，矩形，坐标轴） 
 4：数据的可扩展性，通过一个接口，传递各项数据
 说了这么多看一下效果图再说：
-! [ image ](https://github.com/wangchang163/HistogramView/blob/master/device-2017-07-31-103542.png) 
+![image](https://github.com/wangchang163/HistogramView/blob/master/images/device-2017-07-31-103542.png) 
 
 
 我觉得大多数就是在此基础上修改数据，颜色，尺寸等等，因此我觉得还是有一定的实用性。
