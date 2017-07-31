@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:mViewWidth="24dp"
+        android:layout_gravity="center"
         app:text_color="#00afb2"
         app:line_dotted_line="#00afb2"
         app:line_color="#00afb2"

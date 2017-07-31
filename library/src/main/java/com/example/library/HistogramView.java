@@ -116,13 +116,13 @@ public class HistogramView extends View {
             mMargin = (mWidth - marginLeft - marginRight - str.length* mViewWidth) / (str.length+1);
         }
         setMeasuredDimension(mWidth, mHeight);
+        itemHeight = (mHeight - marginTop - marginBottom) / value;
     }
 
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        itemHeight = (mHeight - marginTop - marginBottom) / value;
         //画坐标轴
         drawLine(canvas);
         //画直方图
