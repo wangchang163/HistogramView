@@ -17,3 +17,21 @@
 博客地址：
 
 http://blog.csdn.net/qq_16131393/article/details/76233999
+
+
+如何使用
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.wangchang163:HistogramView:v1.0'
+	}
+
