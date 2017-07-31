@@ -32,7 +32,37 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.wangchang163:HistogramView:v1.0'
+	       compile 'com.github.wangchang163:HistogramView:2.0'
 	}
 
 
+Step 3. XML
+
+     <com.example.library.HistogramView
+        android:id="@+id/histogramView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:mViewWidth="24dp"
+        android:layout_gravity="center"
+        app:text_color="#00afb2"
+        app:line_dotted_line="#00afb2"
+        app:line_color="#00afb2"
+        app:rect_color="#00afb2"
+         />
+
+Step 4. Java调用
+
+    private String[] str = {"AA", "BB", "CC", "DD", "EE", "FF", "GG","HH","II","JJ","KK"};//名称
+    private int[] pro={100,90,80,70,60,50,40,30,20,10,5};//进度值
+    private int[] progress={90,80,70,60,50,40,30,20,10};//间隔值
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        HistogramView histogramView= (HistogramView) findViewById(R.id.histogramView);
+        histogramView.setData(str,pro,progress,100);
+        histogramView.startAnim();
+
+    }
+    
+    
