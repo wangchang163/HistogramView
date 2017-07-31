@@ -15,13 +15,5 @@
         app:line_color="#00afb2"
         app:rect_color="#00afb2"
          />
-    <com.example.library.HprogressView
-        android:id="@+id/hProgressView"
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        app:bg_color="@color/colorPrimary"
-        app:pro_color="@color/colorAccent"
-        app:txt_color="#FFFFFF"
-        android:layout_margin="12dp"
-        />
+
 </LinearLayout>

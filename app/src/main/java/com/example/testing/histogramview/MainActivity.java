@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.library.HistogramView;
-import com.example.library.HprogressView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,8 +20,7 @@ public class MainActivity extends AppCompatActivity {
         HistogramView histogramView= (HistogramView) findViewById(R.id.histogramView);
         histogramView.setData(str,pro,progress,100);
         histogramView.startAnim();
-        HprogressView hProgressView= (HprogressView) findViewById(R.id.hProgressView);
-        hProgressView.startAnim();
+
     }
 
 }
